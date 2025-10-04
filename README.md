@@ -13,13 +13,4 @@ A modern and fully responsive Hero Section built with HTML and CSS. Ideal for la
 - 💡 Easy to customize
 - 🌐 Cross-browser compatible
 
----
 
-## 📁 Project Structure
-
-```bash
-responsive-hero-section/
-├── index.html
-├── style.css
-└── assets/
-    └── images/
