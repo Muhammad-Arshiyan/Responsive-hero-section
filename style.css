@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", "sans-serif";
+}
+
+body {
+    margin: auto;
+    width: 80%;
+    min-height: 100vh;
+    background-color: #141414;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+
+nav .logo {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.nav-links {
+    list-style: none;
+    gap: 40px;
+    display: flex;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #777;
+}
+
+.nav-links li a.active {
+    color: #fff;
+}
+
+.login {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.join {
+    border: none;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s opacity;
+}
+
+.join:hover {
+    opacity: 0.5;
+}
+
+.text-box {
+    color: #fff;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 250px;
+}
+
+.image img {
+    width: 300px;
+}
+
+
+
+.text-box h1 {
+    font-size: 3.5vw;
+}
+
+.text-box p {
+    max-width: 380px;
+    margin: 20px 0;
+    color: #eee;
+}
+.text-box button {
+    border: none;
+    background-color: #fff;
+    color: #000;
+    padding: 12px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s opacity;
+}
+
+.text-box button:hover {
+    opacity: 0.5;
+}
+
+.bottom-text p {
+    color: #777;
+}
+
+.bottom-container {
+    margin-top: 40px;
+}
+
+.last-text {
+    display: flex;
+    color: #777;
+    gap: 20px;
+}
+
+.last-text p {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+@media(max-width: 900px) {
+    .text-box {
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+    .nav-links {
+        display: none;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .image {
+        order: -1;
+    }
+}
+
+@media(max-width:768px) {
+    nav {
+        padding: 10px 12px;
+    }
+
+    .image img {
+        width: 230px;
+    }
+
+    .text-box h1 {
+        font-size: 30px;
+    }
+
+
+    .text-box p {
+        font-size: 12px;
+    }
+    .last-text {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .bottom-text {
+        padding: 10px;
+    }
+
+}
+
+
+
+
